@@ -1,7 +1,7 @@
 - name: installing, enabling and adding content to httpd using variables
   hosts: ubuntu
   vars:
-    package: httpd
+    package: apache2
     destination: /var/www/html/index.html
   tasks:
   - name: installing httpd
