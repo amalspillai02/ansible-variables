@@ -3,6 +3,7 @@
   vars:
     package: apache2
     destination: /var/www/html/index.html
+    content: ubuntu
   tasks:
   - name: installing httpd
     apt:
