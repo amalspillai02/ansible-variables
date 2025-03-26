@@ -3,6 +3,7 @@
   vars:
     package: httpd
     destination: /var/www/html/index.html
+    content: alam
   tasks:
   - name: installing httpd
     dnf:
